@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item1"
+        android:title="@string/lista_zam_wie"
+        app:showAsAction = "never">
+
+    </item>
+
+    <item android:id="@+id/item2"
+        android:title="@string/wy_lij_sms"
+        app:showAsAction = "never">
+
+    </item>
+
+    <item android:id="@+id/item3"
+        android:title="@string/udost_pnij"
+        app:showAsAction = "never">
+
+    </item>
+
+    <item android:id="@+id/item4"
+        android:title="@string/zapisz_ustawienia"
+        app:showAsAction = "never">
+
+    </item>
+
+    <item android:id="@+id/item5"
+        android:title="@string/o_programie"
+        app:showAsAction = "never">
+
+    </item>
+
+    <item
+        android:id="@+id/item6"
+        android:title="@string/o_autorze"
+        app:showAsAction = "never">
+    </item>
+
+    <item
+        android:id="@+id/item7"
+        android:title="@string/zapisz_dane_logowania"
+        app:showAsAction = "never">
+    </item>
+</menu>

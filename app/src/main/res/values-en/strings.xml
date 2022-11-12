@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App</string>
+    <string name="ilosc">QUANTITY</string>
+    <string name="dodatki">ACCESSORIES</string>
+    <string name="myszki">mouse</string>
+    <string name="klawiatury">keyboard</string>
+    <string name="kamerki">webcam</string>
+    <string name="myszka">myszka</string>
+    <string name="wy_lij_sms">Send SMS</string>
+    <string name="lista_zam_wie">Order list</string>
+    <string name="udost_pnij">Share</string>
+    <string name="zapisz_ustawienia">Information</string>
+    <string name="o_programie">Change language</string>
+    <string name="zam_w">Order</string>
+    <string name="numer_telefonu">Phone number:</string>
+    <string name="adres_e_mail">E-mail adress:</string>
+    <string name="zaspisz">Save</string>
+    <string name="cena">Price:</string>
+    <string name="o_autorze">About</string>
+    <string name="zapisz_dane_logowania">Save login data</string>
+</resources>

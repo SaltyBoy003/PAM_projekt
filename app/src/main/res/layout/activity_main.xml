@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/ilosc"
+        android:id="@+id/a"/>
+
+    <SeekBar
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="180dp"
+        android:id="@+id/seekBar"
+        android:max="10"
+        android:min="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_toRightOf="@+id/seekBar"
+        android:layout_marginTop="170dp"
+        android:id="@+id/ilosc" />
+
+    <TextView
+        android:id="@+id/dodatki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/dodatki"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox_1"
+            android:layout_alignBottom="@id/myszki"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/myszki"
+            android:layout_toRightOf="@id/checkbox_1"
+            android:id="@+id/myszki"/>
+        <Spinner
+            android:id="@+id/spinner_myszki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox_2"
+            android:layout_alignBottom="@id/klawiatury"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/klawiatury"
+            android:layout_toRightOf="@id/checkbox_2"
+            android:id="@+id/klawiatury"/>
+        <Spinner
+            android:id="@+id/spinner_klawiatury"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox_3"
+            android:layout_alignBottom="@id/kamerki"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kamerki"
+            android:layout_toRightOf="@id/checkbox_3"
+            android:id="@+id/kamerki"/>
+        <Spinner
+            android:id="@+id/spinner_kamerki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/cenaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/cena"/>
+    <TextView
+        android:id="@+id/cena1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/cenaa"/>
+
+    <Button
+        android:id="@+id/zamow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:layout_alignParentRight="true"
+        android:text="@string/zam_w"
+        android:layout_marginRight="30dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplikacja</string>
+    <string name="ilosc">ILOŚĆ</string>
+    <string name="dodatki">DODATKI</string>
+    <string name="myszki">myszka</string>
+    <string name="klawiatury">klawiatura</string>
+    <string name="kamerki">kamerka</string>
+    <string name="myszka">myszka</string>
+    <string name="wy_lij_sms">Wyślij SMS</string>
+    <string name="lista_zam_wie">Lista zamówień</string>
+    <string name="udost_pnij">Udostępnij</string>
+    <string name="zapisz_ustawienia">Dane</string>
+    <string name="o_programie">Zmień język</string>
+    <string name="zam_w">Zamów</string>
+    <string name="numer_telefonu">Numer telefonu:</string>
+    <string name="adres_e_mail">Adres E-mail:</string>
+    <string name="zaspisz">Zaspisz</string>
+    <string name="cena">Cena:</string>
+    <string name="o_autorze">O autorze</string>
+    <string name="zapisz_dane_logowania">Zapisz dane logowania</string>
+</resources>
