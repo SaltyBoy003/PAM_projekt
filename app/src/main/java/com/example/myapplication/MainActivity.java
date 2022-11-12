@@ -279,6 +279,7 @@ public class MainActivity extends AppCompatActivity{
                     cena.setText(cena_za_zestaw);
                     SaveInDatabase();
                     reset();
+                    seekBar.setProgress(0);
                 }
             }
         });
